@@ -7,8 +7,6 @@ import tkinter as tk
 import requests
 from PIL import Image, ImageTk
 
-# Open WeatherMap API Key : 59c465747fc12f3b377de08210cf11c3
-# API url : https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 root = tk.Tk()
 
