@@ -24,7 +24,7 @@ def response(weat):
 
 
 def weather(city):
-    weather_key = '59c465747fc12f3b377de08210cf11c3'
+    weather_key = '#####'
     weather_url = 'https://api.openweathermap.org/data/2.5/weather'
     param = {'appid': weather_key, 'q': city, 'units': 'metric'}
     res = requests.get(weather_url, param)
